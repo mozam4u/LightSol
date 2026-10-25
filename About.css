@@ -1,0 +1,376 @@
+ /* ===================================
+   ABOUT PAGE
+=================================== */
+
+.about-page {
+  min-height: 100vh;
+  background: #050816;
+  color: white;
+}
+
+/* ===================================
+   HERO SECTION
+=================================== */
+
+.about-hero {
+  min-height: 85vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 80px 20px;
+
+  background:
+    radial-gradient(circle at top left,
+      rgba(37, 99, 235, 0.4),
+      transparent 35%),
+    radial-gradient(circle at bottom right,
+      rgba(124, 58, 237, 0.4),
+      transparent 35%),
+    #050816;
+}
+
+.about-hero-content {
+  max-width: 1000px;
+}
+
+.about-tag {
+  display: inline-block;
+
+  color: #60a5fa;
+
+  letter-spacing: 2px;
+  font-weight: 600;
+
+  margin-bottom: 20px;
+}
+
+.about-hero-content h1 {
+  font-size: 72px;
+  line-height: 1.1;
+
+  margin-bottom: 25px;
+
+  color: #ffffff;
+
+  font-weight: 800;
+}
+
+.about-hero-content p {
+  max-width: 850px;
+
+  margin: auto;
+
+  color: #cbd5e1;
+
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+/* ===================================
+   BUTTON
+=================================== */
+
+.about-btn {
+  margin-top: 35px;
+
+  padding: 15px 30px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #2563eb;
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.about-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 15px 40px rgba(37, 99, 235, 0.3);
+}
+
+/* ===================================
+   OVERVIEW
+=================================== */
+
+.about-overview {
+  padding: 100px 80px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 60px;
+
+  align-items: center;
+}
+
+.section-label {
+  color: #60a5fa;
+  font-weight: 600;
+}
+
+.overview-left h2 {
+  font-size: 50px;
+
+  margin: 20px 0 25px;
+}
+
+.overview-left p {
+  line-height: 1.9;
+
+  color: #cbd5e1;
+
+  margin-bottom: 20px;
+}
+
+.overview-card {
+  height: 450px;
+
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  font-size: 36px;
+  font-weight: 700;
+
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.35);
+}
+
+/* ===================================
+   STATS
+=================================== */
+
+.stats-section {
+  padding: 0 80px 100px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 25px;
+}
+
+.stat-card {
+  background: #111827;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  text-align: center;
+}
+
+.stat-card h2 {
+  font-size: 48px;
+
+  color: #60a5fa;
+
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  color: #cbd5e1;
+}
+
+/* ===================================
+   VISION & MISSION
+=================================== */
+
+.vision-mission {
+  padding: 0 80px 100px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 30px;
+}
+
+.vm-card {
+  padding: 40px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(15px);
+}
+
+.vm-card h3 {
+  color: #60a5fa;
+
+  margin-bottom: 20px;
+
+  font-size: 28px;
+}
+
+.vm-card p {
+  color: #cbd5e1;
+
+  line-height: 1.8;
+}
+
+/* ===================================
+   CAPABILITIES
+=================================== */
+
+.capabilities-section {
+  padding: 100px 80px;
+}
+
+.capabilities-section h2 {
+  text-align: center;
+
+  font-size: 52px;
+
+  margin-bottom: 50px;
+}
+
+.capabilities-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+.capability-card {
+  padding: 35px;
+
+  border-radius: 20px;
+
+  background: #111827;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.capability-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 20px 50px rgba(96, 165, 250, 0.15);
+}
+
+.capability-card h3 {
+  color: #60a5fa;
+
+  margin-bottom: 15px;
+}
+
+.capability-card p {
+  color: #cbd5e1;
+
+  line-height: 1.8;
+}
+
+/* ===================================
+   CTA
+=================================== */
+
+.about-cta {
+  padding: 120px 20px;
+
+  text-align: center;
+
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+}
+
+.about-cta h2 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.about-cta p {
+  max-width: 800px;
+
+  margin: auto;
+
+  color: white;
+
+  line-height: 1.8;
+}
+
+/* ===================================
+   RESPONSIVE
+=================================== */
+
+@media (max-width: 992px) {
+
+  .about-overview,
+  .vision-mission,
+  .stats-section,
+  .capabilities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero-content h1 {
+    font-size: 52px;
+  }
+
+  .overview-left h2 {
+    font-size: 38px;
+  }
+
+  .capabilities-section h2,
+  .about-cta h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .about-overview,
+  .capabilities-section {
+    padding: 40px 20px;
+  }
+
+  .vision-mission,
+  .stats-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-hero-content h1 {
+    font-size: 38px;
+  }
+
+  .overview-card {
+    height: 260px;
+    font-size: 26px;
+  }
+
+  .about-cta h2 {
+    font-size: 32px;
+  }
+}
+
+.about-page h1,
+.about-page h2,
+.about-page h3{
+  color:#ffffff;
+  font-weight:700;
+}
